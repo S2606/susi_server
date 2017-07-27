@@ -140,19 +140,6 @@ readme</span></a>.</p>
 <li>to shut down Susi, run <code class="docutils literal"><span class="pre">bin/stop.sh</span></code></li>
 </ul>
 </div>
-<div class="section" id="how-do-i-analyze-data-acquired-by-susi-ai">
-<h2>How do I analyze data acquired by Susi AI<a class="headerlink" href="#how-do-i-analyze-data-acquired-by-susi-ai" title="Permalink to this headline">¶</a></h2>
-<p>Susi stores data into an elasticsearch index. There is a front-end for the index available in elasticsearch-head. To install this, do:</p>
-<ul class="simple">
-<li><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">npm</span> <span class="pre">install</span> <span class="pre">-g</span> <span class="pre">grunt-cli</span></code></li>
-<li><code class="docutils literal"><span class="pre">cd</span></code> into the parent directly of Susi_server</li>
-<li><code class="docutils literal"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">git://github.com/mobz/elasticsearch-head.git</span></code></li>
-<li><code class="docutils literal"><span class="pre">cd</span> <span class="pre">elasticsearch-head</span></code></li>
-<li><code class="docutils literal"><span class="pre">npm</span> <span class="pre">install</span></code></li>
-</ul>
-<p>Run elasticsearch-head with: - <code class="docutils literal"><span class="pre">grunt</span> <span class="pre">server</span></code> ..which opens the
-administration page at <code class="docutils literal"><span class="pre">http://localhost:9100</span></code></p>
-</div>
 <div class="section" id="how-do-i-configure-susi-ai">
 <h2>How do I configure Susi AI?<a class="headerlink" href="#how-do-i-configure-susi-ai" title="Permalink to this headline">¶</a></h2>
 <p>The basis configuration file is in <code class="docutils literal"><span class="pre">conf/config.properties</span></code>. To
@@ -348,7 +335,6 @@ reviewer, who will approve your PR or he will suggest changes.</li>
 <li><a class="reference internal" href="#how-do-i-deploy-susi-ai-with-cloud9">How do I deploy Susi AI with cloud9?</a></li>
 <li><a class="reference internal" href="#how-do-i-setup-susi-ai-on-eclipse">How do I setup Susi AI on Eclipse?</a></li>
 <li><a class="reference internal" href="#how-do-i-run-susi-ai">How do I run Susi AI?</a></li>
-<li><a class="reference internal" href="#how-do-i-analyze-data-acquired-by-susi-ai">How do I analyze data acquired by Susi AI</a></li>
 <li><a class="reference internal" href="#how-do-i-configure-susi-ai">How do I configure Susi AI?</a></li>
 <li><a class="reference internal" href="#how-to-compile-using-gradle">How to compile using Gradle?</a></li>
 <li><a class="reference internal" href="#how-do-i-develop-skills-ai-conversation-rules-for-susi-ai">How do I develop Skills (AI Conversation Rules) for Susi AI?</a></li>
